@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: 'Monoid Regular';
+    src: url('https://larsenwork.com/monoid/css/Monoid-Regular.eot');
+    /* IE9 Compat Modes */
+    src: url('https://larsenwork.com/monoid/css/Monoid-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://larsenwork.com/monoid/css/Monoid-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('https://larsenwork.com/monoid/css/Monoid-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('https://larsenwork.com/monoid/css/Monoid-Regular.ttf') format('truetype');
+    /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'monoisomeregular';
+    src: url('https://larsenwork.com/monoid/css/monoisome-regular.eot');
+    src: url('https://larsenwork.com/monoid/css/monoisome-regular.eot?#iefix') format('embedded-opentype'),
+         url('https://larsenwork.com/monoid/css/monoisome-regular.woff2') format('woff2'),
+         url('https://larsenwork.com/monoid/css/monoisome-regular.woff') format('woff'),
+         url('https://larsenwork.com/monoid/css/monoisome-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+strong, b {
+    font-weight: 700;
+}
+
+body, p, div, span, button, a, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+h1, h2 {
+    font-weight: 500;
+}
+
+body, p, div:not(#editor), span, button, a, h1, h2, h3, h4, h5, h6, label {
+    font-family: 'Encode Sans', sans-serif;
+}
+
+span.ace_keyword, span.ace_identifier, span.ace_punctuation, div.ace_line,
+span.ace_comment, span.ace_paran, span.ace_string, span.ace_constant, span.ace_numeric {
+    font-family: 'Oxygen Mono', monospace;
+}
+
+.monofont {
+    font-family: 'Monoid Regular', monospace;
+
+    & > {
+        font-family: 'Monoid Regular', monospace;
+
+        & > i {
+            font-family: 'Monoid Regular', monospace;
+        }
+    }
+}
+
+a {
+    color: #64B5F6 !important;
+
+    &:hover {
+        color: #A5D1F5 !important;
+        text-decoration: none;
+    }
+}
