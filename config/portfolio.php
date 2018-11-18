@@ -1,21 +1,21 @@
-<?php 
+<?php
 
 return [
     'projects' => [
         [
-            'name' => 'Some Project 1',
-            'info' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-            'url'  => 'https://senither.com/'
+            'name' => 'Github',
+            'info' => 'View my public projects and follow up on what I am making in the moment.',
+            'url'  => 'https://github.com/Senither'
         ],
         [
-            'name' => 'Some Project 2',
-            'info' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-            'url'  => 'https://senither.com/'
+            'name' => 'Discord',
+            'info' => 'Catch me on my Discord server where I also post updates about my projects and talk to people using my apps.',
+            'url'  => 'https://discord.gg/ZpJDKzf'
         ],
         [
-            'name' => 'Some Project 3',
-            'info' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-            'url'  => 'https://senither.com/'
+            'name' => 'Email',
+            'info' => 'Send me an email, I will most likely get back to you within 24-48 hours.',
+            'url'  => 'mailto:me@senither.com'
         ]
     ]
 ];
