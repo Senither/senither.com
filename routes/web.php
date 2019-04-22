@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('my-ip', function () {
+    return response()->json([
+        'address' => $_SERVER['HTTP_X_FORWARDED_FOR']
+    ]);
+});
