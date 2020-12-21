@@ -41,7 +41,7 @@
                 </div>
 
                 <div class="container monofont" style="padding-top: 40px;">
-                    @include('partials.item', ['name' => 'Recent Projects', 'key' => 'projects'])
+                    @include('partials.item', ['name' => 'Contact Me', 'key' => 'projects'])
                 </div>
             </div>
         </div>

@@ -1,5 +1,7 @@
 <?php
 
+// exit(header('Location: https://avairebot.com/'));
+
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
